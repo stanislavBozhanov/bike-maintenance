@@ -1,8 +1,13 @@
 import React from 'react';
 import './App.css';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
 }
 
 export default App;

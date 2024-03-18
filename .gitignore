@@ -12,12 +12,31 @@
 /build
 
 # misc
+server_old
 .DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# python
+.venv
+*.pyc
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+static/
+
+# Visual Studio Code
+.vscode/
