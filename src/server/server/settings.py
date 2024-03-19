@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'stravauser',
     'oauth2_provider',
     'corsheaders',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
